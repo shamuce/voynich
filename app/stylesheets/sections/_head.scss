@@ -180,6 +180,7 @@
 
 @media (max-width: 320px) {
     .head {
+         min-height: 480px;
         &-title {
             margin-left: 15px;
         }
