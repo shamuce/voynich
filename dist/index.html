@@ -1,0 +1,228 @@
+
+<html lang="en">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <meta name="viewport" content="width=device-width"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no"/>
+    <title>Voynich</title>
+    <link rel="stylesheet" href="./css/app.css"/>
+    <link rel="icon" href="images/favicon.ico" type="image/x-icon"/>
+    <script src="js/app.js"></script>
+    <script>
+          var styles = [
+            {
+              stylers: [
+                { saturation: -100 }
+              ]
+            }
+          ]
+      
+          function initMap() {
+            var marker = {lat: 21.18571975, lng: -86.8093501}
+      
+            var map = new google.maps.Map(document.getElementById('map'), {
+              center: marker,
+              scrollwheel: false,
+              zoom: 18,
+              disableDefaultUI: true
+            });
+      
+            map.setOptions({styles: styles});
+      
+            var marker = new google.maps.Marker({
+              position: marker,
+              map: map
+            });
+          }
+      
+    </script>
+  </head>
+  <body>
+    <div id="head" class="head">
+      <div class="head__burger"></div>
+      <div class="head-mobile">
+        <div class="head-mobile__cross"></div>
+        <div class="head-mobile__logo"></div>
+        <div class="head-mobile__nav"><a href="#about" class="head-mobile__item">About</a><a href="#features" class="head-mobile__item">Features</a><a href="#testi" class="head-mobile__item">Testi</a><a href="#contact" class="head-mobile__item">Contact</a><a href="#" class="head-mobile__item head-mobile__item-livechat">Live Chat</a></div>
+      </div>
+      <div class="container head__menu">
+        <div class="head__logo"></div>
+        <div class="head__nav"><a href="#about" class="head__nav-item">About</a><a href="#features" class="head__nav-item">Features</a><a href="#testi" class="head__nav-item">Testi</a><a href="#contact" class="head__nav-item">Contact</a><a href="#" class="head__nav-item head__nav-item-livechat">Live Chat</a></div>
+      </div>
+      <div class="container head-title">
+        <div class="head-title__one">
+           
+          Ideas worth<br/>sharing
+        </div>
+        <div class="head-title__two">
+           
+          Find the answers <a href="#">right now</a>
+        </div>
+        <div class="head-title__arrow"></div>
+      </div>
+    </div>
+    <div id="about" class="container about">
+      <div class="about__overtitle">About Us</div>
+      <div class="about__title">
+        <div class="text">When there is too much at risk, and you </div>
+        <div class="text">need a trusted partner</div>
+      </div>
+      <div class="about__subtitle">
+        <div class="text">Tellus commodo torquent sodales imperdiet massa risus. Erat magnis est nascetur</div>
+        <div class="text">molestie integer non eros justo. Urna. Morbi. Mus eleifend mattis nec dictum risus </div>
+        <div class="text">parturient vehicula fermentum rhoncus. Mattis Facilisi, odio aptent nullam sodales curae.</div>
+      </div>
+      <div class="about__list">
+        <div class="about__list-item">
+          <div class="about-item__photo about-item__photo--1"></div>
+          <div class="about-item__title">Dignissim cubilia</div>
+          <div class="about-item__subtitle">
+            <div class="text"> Malesuada libero fames donec vulputate. Velit sollicitudin est blandit nascetur primis Amet. </div>
+          </div>
+        </div>
+        <div class="about__list-item">
+          <div class="about-item__photo about-item__photo--2"></div>
+          <div class="about-item__title">Dignissim cubilia</div>
+          <div class="about-item__subtitle">
+            <div class="text"> Malesuada libero fames donec vulputate. Velit sollicitudin est blandit nascetur primis Amet. </div>
+          </div>
+        </div>
+        <div class="about__list-item">
+          <div class="about-item__photo about-item__photo--3"></div>
+          <div class="about-item__title">Dignissim cubilia</div>
+          <div class="about-item__subtitle">
+            <div class="text"> Malesuada libero fames donec vulputate. Velit sollicitudin est blandit nascetur primis Amet.</div>
+          </div>
+        </div>
+        <div class="about__list-item">
+          <div class="about-item__photo about-item__photo--4"></div>
+          <div class="about-item__title">Dignissim cubilia</div>
+          <div class="about-item__subtitle">
+            <div class="text"> Malesuada libero fames donec vulputate. Velit sollicitudin est blandit nascetur primis  Amet.</div>
+          </div>
+        </div>
+        <div class="about__list-item">
+          <div class="about-item__photo about-item__photo--5"></div>
+          <div class="about-item__title">Dignissim cubilia</div>
+          <div class="about-item__subtitle">
+            <div class="text"> Malesuada libero fames donec vulputate. Velit sollicitudin est blandit nascetur primis Amet. </div>
+          </div>
+        </div>
+        <div class="about__list-item">
+          <div class="about-item__photo about-item__photo--6"></div>
+          <div class="about-item__title">Dignissim cubilia</div>
+          <div class="about-item__subtitle">
+            <div class="text"> Malesuada libero fames donec vulputate. Velit sollicitudin est blandit nascetur primis Amet.</div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div id="features" class="container features">
+      <div class="features__overtitle">Killer Features</div>
+      <div class="features__title">
+        <div class="text">You have deal with real problems, we</div>
+        <div class="text">have real solutions</div>
+      </div>
+      <div class="features__subtitle">
+        <div class="text">Tellus commodo torquent sodales imperdiet massa risus. Erat magnis est nascetur</div>
+        <div class="text">molestie integer non eros justo. Urna. Morbi. Mus eleifend mattis nec dictum risus </div>
+        <div class="text">parturient vehicula fermentum rhoncus. Mattis Facilisi, odio aptent nullam sodales curae.</div>
+      </div>
+      <div class="features__list">
+        <div class="features__list-item">
+          <div class="features-item__photo features-item__photo--1"></div>
+          <div class="features-item__title">Dignissim cubilia</div>
+          <div class="features-item__subtitle">
+            <div class="text"> Rhoncus eros aenean scelerisque curabitur nascetur, sodales nisl, cubilia integer ad non</div>
+          </div>
+        </div>
+        <div class="features__list-item">
+          <div class="features-item__photo features-item__photo--2"></div>
+          <div class="features-item__title">Dignissim cubilia</div>
+          <div class="features-item__subtitle">
+            <div class="text"> Rhoncus eros aenean scelerisque curabitur nascetur, sodales nisl, cubilia integer ad non</div>
+          </div>
+        </div>
+        <div class="features__list-item">
+          <div class="features-item__photo features-item__photo--3"></div>
+          <div class="features-item__title">Dignissim cubilia</div>
+          <div class="features-item__subtitle">
+            <div class="text"> Rhoncus eros aenean scelerisque curabitur nascetur, sodales nisl, cubilia integer ad non</div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div id="testi" class="container testi">
+      <div class="testi__overtitle">Testimonials</div>
+      <div class="testi__title"> 
+        <div class="text">You need the best team working for your</div>
+        <div class="text">hard earned money</div>
+      </div>
+      <div class="testi__slider">
+        <div class="testi__slider-item">
+          <div class="text">
+             
+            Nullam etiam ligula pellentesque Erat euismod dignissim pulvinar ridiculus suscipit,
+          </div>
+          <div class="text">aptent proin duis nisi eros eros vulputate. Congue aptent. Lobortis cubilia hac nonummy </div>
+          <div class="text">risus interdum maecenas morbi condimentum Imperdiet quis a orci nascetur. Sociosqu magna.</div>
+        </div>
+        <div class="testi__slider-item">
+          <div class="text">
+             
+            Nullam etiam ligula pellentesque Erat euismod.
+          </div>
+          <div class="text">Aptent proin duis nisi eros eros vulputate.</div>
+          <div class="text">Risus interdum maecenas morbi condimentum.</div>
+        </div>
+        <div class="testi__slider-item">
+          <div class="text">
+             
+            Erat euismod dignissim pulvinar ridiculus suscipit.
+          </div>
+          <div class="text">Imperdiet quis a orci nascetur. Sociosqu magna.</div>
+          <div class="text">Aptent proin duis nisi eros eros vulputate..</div>
+        </div>
+      </div>
+      <div class="testi__slider-counter"></div>
+    </div>
+    <div id="contact" class="container contact">
+      <div class="contact__overtitle">Get in Touch</div>
+      <div class="contact__title"> 
+        <div class="text">Alright, let's get this success thing rollin'</div>
+        <div class="text">once for all</div>
+      </div>
+      <div class="wrapper">
+        <div class="form">
+          <div class="form__title">Drop us a line</div>
+          <form method="POST" action="/contact.php" class="form-table">
+            <div class="form-table__name form-table__label">Your name</div>
+            <input type="text" id="name" name="name" autocomplete="off" class="form-table__inname"/>
+            <div class="form-table__email form-table__label">E-mail</div>
+            <input type="email" id="email" name="email" autocomplete="off" class="form-table__inemail"/>
+            <div class="form-table__textarea form-table__label">How can we help?		</div>
+            <textarea id="message" name="message" class="form-table__intextarea"></textarea>
+            <button type="submit" class="form-table__send">Send Message</button>
+          </form>
+        </div>
+        <div class="contact__list">
+          <div class="contact__list-title">Contact us</div>
+          <div class="contact__list-item--1">
+            <div class="contact__list-item--1__street">4241 Same Street</div>
+            <div class="contact__list-item--1__county">Building B7, 32000</div>
+            <div class="contact__list-item--1__city">Juarez, Mexico</div>
+          </div>
+          <div class="contact__list-item--2">
+            <div class="contact__list-item--2__number">01800 123 4455</div>
+            <div class="contact__list-item--2__email">info@voynich.com</div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div id="map" class="map"></div>
+    <div id="footer" class="container footer">
+      <div class="footer__title">© All rights reserved, Voynich</div>
+    </div>
+  </body>
+</html>
+<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAsikV4SjdANJHBhd2AEzcvD5_mg-aFWdQ&amp;callback=initMap" async="async" defer="defer"></script>

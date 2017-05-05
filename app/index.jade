@@ -1,0 +1,244 @@
+html(lang="en")
+	head
+		meta(http-equiv="Content-Type" content="text/html; charset=utf-8")
+		meta(name="viewport" content="width=device-width")
+		meta(name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no")
+
+		title Voynich
+		link(rel="stylesheet", href="./css/app.css")
+		link(rel="icon" href="images/favicon.ico" type="image/x-icon")
+
+		script(src="js/app.js")
+		script.
+			    var styles = [
+			      {
+			        stylers: [
+			          { saturation: -100 }
+			        ]
+			      }
+			    ]
+
+			    function initMap() {
+			      var marker = {lat: 21.18571975, lng: -86.8093501}
+
+			      var map = new google.maps.Map(document.getElementById('map'), {
+			        center: marker,
+			        scrollwheel: false,
+			        zoom: 18,
+			        disableDefaultUI: true
+			      });
+
+			      map.setOptions({styles: styles});
+
+			      var marker = new google.maps.Marker({
+			        position: marker,
+			        map: map
+			      });
+			    }
+
+	body
+		.head#head
+			.head__burger
+
+			.head-mobile
+				.head-mobile__cross
+				.head-mobile__logo
+
+				.head-mobile__nav
+					a.head-mobile__item(href="#about")
+						| About
+					a.head-mobile__item(href="#features")
+						| Features
+					a.head-mobile__item(href="#testi")
+						| Testi
+					a.head-mobile__item(href="#contact")
+						| Contact
+					a.head-mobile__item.head-mobile__item-livechat(href="#")
+						| Live Chat
+
+			.container.head__menu
+				.head__logo
+
+				.head__nav
+					a.head__nav-item(href="#about")
+						| About
+					a.head__nav-item(href="#features")
+						| Features
+					a.head__nav-item(href="#testi")
+						| Testi
+					a.head__nav-item(href="#contact")
+						| Contact
+					a.head__nav-item.head__nav-item-livechat(href="#")
+						| Live Chat
+
+			.container.head-title
+				.head-title__one 
+					| Ideas worth
+					br
+					| sharing
+				.head-title__two 
+					| Find the answers 
+					a(href="#")
+						| right now
+				.head-title__arrow
+
+		.container.about#about
+
+			.about__overtitle
+				| About Us
+			.about__title
+				.text When there is too much at risk, and you 
+				.text need a trusted partner
+			.about__subtitle
+				.text Tellus commodo torquent sodales imperdiet massa risus. Erat magnis est nascetur
+				.text molestie integer non eros justo. Urna. Morbi. Mus eleifend mattis nec dictum risus 
+				.text parturient vehicula fermentum rhoncus. Mattis Facilisi, odio aptent nullam sodales curae.
+			
+			.about__list
+				.about__list-item
+					.about-item__photo.about-item__photo--1
+					.about-item__title
+						| Dignissim cubilia
+					.about-item__subtitle
+						.text  Malesuada libero fames donec vulputate. Velit sollicitudin est blandit nascetur primis Amet. 
+				.about__list-item
+					.about-item__photo.about-item__photo--2
+					.about-item__title
+						| Dignissim cubilia
+					.about-item__subtitle
+						.text  Malesuada libero fames donec vulputate. Velit sollicitudin est blandit nascetur primis Amet. 
+				.about__list-item
+					.about-item__photo.about-item__photo--3
+					.about-item__title
+						| Dignissim cubilia
+					.about-item__subtitle
+						.text  Malesuada libero fames donec vulputate. Velit sollicitudin est blandit nascetur primis Amet.
+				.about__list-item
+					.about-item__photo.about-item__photo--4
+					.about-item__title
+						| Dignissim cubilia
+					.about-item__subtitle
+						.text  Malesuada libero fames donec vulputate. Velit sollicitudin est blandit nascetur primis  Amet.
+				.about__list-item
+					.about-item__photo.about-item__photo--5
+					.about-item__title
+						| Dignissim cubilia
+					.about-item__subtitle
+						.text  Malesuada libero fames donec vulputate. Velit sollicitudin est blandit nascetur primis Amet. 
+				.about__list-item
+					.about-item__photo.about-item__photo--6
+					.about-item__title
+						| Dignissim cubilia
+					.about-item__subtitle
+						.text  Malesuada libero fames donec vulputate. Velit sollicitudin est blandit nascetur primis Amet.
+
+		.container.features#features
+
+			.features__overtitle
+				| Killer Features
+			.features__title
+				.text You have deal with real problems, we
+				.text have real solutions
+			.features__subtitle
+				.text Tellus commodo torquent sodales imperdiet massa risus. Erat magnis est nascetur
+				.text molestie integer non eros justo. Urna. Morbi. Mus eleifend mattis nec dictum risus 
+				.text parturient vehicula fermentum rhoncus. Mattis Facilisi, odio aptent nullam sodales curae.
+			
+			.features__list
+				.features__list-item
+					.features-item__photo.features-item__photo--1
+					.features-item__title
+						| Dignissim cubilia
+					.features-item__subtitle
+						.text  Rhoncus eros aenean scelerisque curabitur nascetur, sodales nisl, cubilia integer ad non
+				.features__list-item
+					.features-item__photo.features-item__photo--2
+					.features-item__title
+						| Dignissim cubilia
+					.features-item__subtitle
+						.text  Rhoncus eros aenean scelerisque curabitur nascetur, sodales nisl, cubilia integer ad non
+				.features__list-item
+					.features-item__photo.features-item__photo--3
+					.features-item__title
+						| Dignissim cubilia
+					.features-item__subtitle
+						.text  Rhoncus eros aenean scelerisque curabitur nascetur, sodales nisl, cubilia integer ad non
+		.container.testi#testi
+
+			.testi__overtitle Testimonials
+			.testi__title 
+				.text You need the best team working for your
+				.text hard earned money
+
+			.testi__slider
+				.testi__slider-item
+					.text 
+						| Nullam etiam ligula pellentesque Erat euismod dignissim pulvinar ridiculus suscipit,
+					.text
+						| aptent proin duis nisi eros eros vulputate. Congue aptent. Lobortis cubilia hac nonummy 
+					.text
+						| risus interdum maecenas morbi condimentum Imperdiet quis a orci nascetur. Sociosqu magna.
+				.testi__slider-item
+					.text 
+						| Nullam etiam ligula pellentesque Erat euismod.
+					.text
+						| Aptent proin duis nisi eros eros vulputate.
+					.text
+						| Risus interdum maecenas morbi condimentum.
+				.testi__slider-item
+					.text 
+						| Erat euismod dignissim pulvinar ridiculus suscipit.
+					.text
+						| Imperdiet quis a orci nascetur. Sociosqu magna.
+					.text
+						| Aptent proin duis nisi eros eros vulputate..
+
+			.testi__slider-counter
+
+		.container.contact#contact
+	
+			.contact__overtitle Get in Touch
+			.contact__title 
+				.text Alright, let's get this success thing rollin'
+				.text once for all
+			.wrapper
+				.form
+					.form__title
+						| Drop us a line
+					form.form-table(method="POST" action="/contact.php")
+						.form-table__name.form-table__label
+							| Your name
+						input.form-table__inname(type="text" id="name" name="name" autocomplete="off")
+
+						.form-table__email.form-table__label
+							| E-mail
+						input.form-table__inemail(type="email" id="email" name="email" autocomplete="off")
+
+						.form-table__textarea.form-table__label
+							| How can we help?		
+						textarea.form-table__intextarea(id="message" name="message")
+
+						button.form-table__send(type="submit")
+							| Send Message
+
+				.contact__list
+					.contact__list-title
+						| Contact us
+					.contact__list-item--1
+						.contact__list-item--1__street
+							| 4241 Same Street
+						.contact__list-item--1__county
+							| Building B7, 32000
+						.contact__list-item--1__city
+							| Juarez, Mexico
+
+					.contact__list-item--2
+						.contact__list-item--2__number
+							| 01800 123 4455
+						.contact__list-item--2__email
+							| info@voynich.com
+		.map#map
+		.container.footer#footer
+			.footer__title
+				| © All rights reserved, Voynich
+script(src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAsikV4SjdANJHBhd2AEzcvD5_mg-aFWdQ&callback=initMap" async defer)

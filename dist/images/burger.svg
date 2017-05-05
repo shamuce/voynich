@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="28px" height="23px" viewBox="0 0 28 23" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 41 (35326) - http://www.bohemiancoding.com/sketch -->
+    <title>Menu_Icon</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Index" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="index-320" transform="translate(-272.000000, -30.000000)" fill="#CACACA">
+            <g id="Header" transform="translate(20.000000, 30.000000)">
+                <g id="Menu_Icon" transform="translate(252.000000, 0.000000)">
+                    <rect id="Rectangle-5" x="0" y="0" width="28" height="3"></rect>
+                    <rect id="Rectangle-5" x="0" y="10" width="28" height="3"></rect>
+                    <rect id="Rectangle-5" x="0" y="20" width="28" height="3"></rect>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
